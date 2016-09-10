@@ -1,0 +1,72 @@
+  <!-- FOOTER -->
+  <footer id="main_footer">
+    <!-- CONTAINER -->
+
+    <!-- CONTAINER END -->
+  </footer>
+  <!-- FOOTER END -->
+
+  <footer id="sub_footer">
+    <!-- CONTAINER -->
+    <div class="container">
+      <div class="row">
+        <div class="col one_half">
+         <!--  <a href="#" id="footer_logo">
+            <img src="/img/logo_alt.png" alt="Velocity" />
+          </a> -->
+          <h6>&copy; <span class="light">2016 Les sans cravates. Tous droits réservés.</span></h6>
+        </div>
+      </div>
+    </div>
+
+    <a id="totop" href="#top"><i class="fa fa-angle-up"></i></a>
+  </footer>
+
+  <!-- JS -->
+  <script src="/js/jquery-1.10.2.js"></script>
+  <script src="/js/plugins.js"></script>
+  <script src="/js/sudoSlider.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      var sudoSlider = $("#slider").sudoSlider({
+         numeric: false,
+         responsive: true,
+         controlsFade: false,
+         auto: true,
+         speed: 1250
+      });
+
+          $(".prevBtn, .nextBtn, #slider").hover(
+              function () {
+                  // Mousein
+                  $(".prevBtn, .nextBtn").stop().fadeTo(200, 1);
+              }, 
+              function () {
+                  //Mouse out
+                  $(".prevBtn, .nextBtn").stop().fadeTo(200, 0);
+              }
+          );
+          $(".prevBtn, .nextBtn").stop().fadeTo(0, 0);
+    });
+  </script>
+  <script src="/js/view.min.js?auto"></script>
+  <script src="/js/masonry-docs.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      var container = document.querySelector('#container');
+      var msnry = new Masonry( container, {
+        // options
+        itemSelector: '.item'
+      });
+      var msnry;
+      // initialize Masonry after all images have loaded
+      imagesLoaded( container, function() {
+        msnry = new Masonry( container );
+      });
+    });
+  </script>
+  <script src="/js/fitvids.js"></script>
+  <script src="/js/modernizr.js"></script>
+  
+</body>
+</html>

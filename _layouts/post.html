@@ -1,0 +1,40 @@
+{% include head.html %}
+
+<body>
+  {% include header.html %}
+
+  <div class="nav_clear"></div><!-- CLEAR NAV -->
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <div class="container"><!-- CONTAINER -->
+      <div class="row">
+        <!-- MAIN BLOG CONTENT -->
+        <header class="cover_img_container"><!-- COVER IMAGE -->
+          <div class="cover_image" style="background-image: url(/img/blog/1040x225_{{ page.img }}.jpg);"></div>
+        </header><!-- COVER IMAGE END -->
+
+        <div class="col full_width">
+          <article class="post_container fullpost">
+            <img src="/img/avatar/62x62_{{ page.avatar }}.jpg" alt="" class="avatar"/>
+            <header class="post_header">
+              <h1>A web designer's guide: get out the office and get some fresh inspiration</h1>
+              <a class="meta-button rounded" href="#"><i class="fa fa-clock-o"></i><span>{{ page.date | date_to_string }}</span></a>
+            </header>
+            <div class="post_content">
+              {{ content }}
+            </div>
+          </article>
+
+        </div>
+        <!-- MAIN BLOG CONTENT END -->
+      </div>
+    </div>
+    <!-- CONTAINER END -->
+  </main>
+  <!-- MAIN CONTENT END -->
+
+  {% include footer.html %}
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+/* --- TEXT COLORS --- */
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{	color: #333; }
+.text_color{ color: #333; }
+.text_color li:before{ color: #333; }
+ul.list.text_orange li:before{ color: #333; }
+blockquote{ color: #333; }
+.list_2 ul li i{ color: #333; }
+ul.list.text_lightestGrey li:hover:before{ color: #333; }
+p a{ color: #333; }
+.avatar_title h5 span a{ color: #333; }
+#header nav ul li.dropdown ul li a:hover{ color: #333; }
+#page_header ul li a{ color: #fff; }
+.feature_icon{ color: #333; }
+.features_pushed:before{ color: #333; }
+.pagination_menu i:hover{ color: #333; }
+.meta li a:hover{ color: #333; }
+.categories li h6 a{ color: #333; }
+.mini_post header h6:hover, .mini_post li:hover{ color: #333; }
+#main_footer .col ul li a:hover{ color: #fff; }
+.pricing_column h2{	color: #333; }
+.tabs > ul li a.inactive:hover{	color: #333; }
+.accordion h2:hover, .accordion h3:hover, .accordion h4:hover, .accordion h5:hover, .accordion h6:hover{ color: #333; }
+
+/* --- BACKGROUND COLORS --- */
+
+::selection{ background: #333; }
+::-moz-selection{ background: #333; }
+.highlight{	background: #333; }
+.dropcap_alt{ background: #333; }
+blockquote.alt2{ background: #333; }
+.img_overlay{	background: #333; }
+.meta-button:hover{	background: #333; }
+#totop:hover{ background: #333; }
+.coloured_wrapper.defaultcolor_wrap:before{ background: #333; }
+.pricing_column.active{	background: #333; }
+.viewer{ background: rgba(51,51,51,0.9); }
+
+/* --- OTHER --- */
+
+blockquote{ border-color: #333; }
+
+.feature_icon{ color: #333; }
+
+.features:hover .feature_icon, .notification, .meter span, .vertical_tabs ul li.active, .btn_color{
+	background: #444;
+	border: 1px solid #333;
+	
+	background-image: -o-linear-gradient(top, #505050, #444);
+	background-image: -ms-linear-gradient(top, #505050, #444);
+	background-image: -moz-linear-gradient(top, #505050, #444);
+	background-image: -webkit-linear-gradient(top, #505050, #444);
+}
+
+.btn_color:hover{
+	background: #4e4e4e;
+	
+	background-image: -o-linear-gradient(top, #595959, #4e4e4e);
+	background-image: -ms-linear-gradient(top, #595959, #4e4e4e);
+	background-image: -moz-linear-gradient(top, #595959, #4e4e4e);
+	background-image: -webkit-linear-gradient(top, #595959, #4e4e4e);
+}
+
+.btn_color:active{
+	background: #444;
+	
+	background-image: -o-linear-gradient(bottom, #505050, #444);
+	background-image: -ms-linear-gradient(bottom, #505050, #444);
+	background-image: -moz-linear-gradient(bottom, #505050, #444);
+	background-image: -webkit-linear-gradient(bottom, #505050, #444);
+}
+
+.vertical_tabs ul li.active:after{ background: url(../../img/buttontip_black.png); }

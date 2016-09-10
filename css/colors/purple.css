@@ -1,0 +1,74 @@
+/* --- TEXT COLORS --- */
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{	color: #9770c6; }
+.text_color{ color: #9770c6; }
+.text_color li:before{ color: #9770c6; }
+ul.list.text_orange li:before{ color: #9770c6; }
+blockquote{ color: #9770c6; }
+.list_2 ul li i{ color: #9770c6; }
+ul.list.text_lightestGrey li:hover:before{ color: #9770c6; }
+p a{ color: #9770c6; }
+.avatar_title h5 span a{ color: #9770c6; }
+#header nav ul li.dropdown ul li a:hover{ color: #9770c6; }
+#page_header ul li a{ color: #9770c6; }
+.feature_icon{ color: #9770c6; }
+.features_pushed:before{ color: #9770c6; }
+.pagination_menu i:hover{ color: #9770c6; }
+.meta li a:hover{ color: #9770c6; }
+.categories li h6 a{ color: #9770c6; }
+.mini_post header h6:hover, .mini_post li:hover{ color: #9770c6; }
+#main_footer .col ul li a:hover{ color: #9770c6; }
+.pricing_column h2{	color: #9770c6; }
+.tabs > ul li a.inactive:hover{	color: #9770c6; }
+.accordion h2:hover, .accordion h3:hover, .accordion h4:hover, .accordion h5:hover, .accordion h6:hover{ color: #9770c6; }
+
+/* --- BACKGROUND COLORS --- */
+
+::selection{ background: #9770c6; }
+::-moz-selection{ background: #9770c6; }
+.highlight{	background: #9770c6; }
+.dropcap_alt{ background: #9770c6; }
+blockquote.alt2{ background: #9770c6; }
+.img_overlay{	background: #9770c6; }
+.meta-button:hover{	background: #9770c6; }
+#totop:hover{ background: #9770c6; }
+.coloured_wrapper.defaultcolor_wrap:before{ background: #9770c6; }
+.pricing_column.active{	background: #9770c6; }
+.viewer{ background: rgba(151,112,198,0.9); }
+
+
+/* --- OTHER --- */
+
+blockquote{ border-color: #9770c6; }
+
+.feature_icon{ color: #9770c6; }
+
+.features:hover .feature_icon, .notification, .meter span, .vertical_tabs ul li.active, .btn_color{
+	background: #9770c6;
+	border: 1px solid #8254b8;
+	
+	background-image: -o-linear-gradient(top, #a47dd3, #9770c6);
+	background-image: -ms-linear-gradient(top, #a47dd3, #9770c6);
+	background-image: -moz-linear-gradient(top, #a47dd3, #9770c6);
+	background-image: -webkit-linear-gradient(top, #a47dd3, #9770c6);
+}
+
+.btn_color:hover{
+	background: #a47dd3;
+	
+	background-image: -o-linear-gradient(top, #b18ae0, #a47dd3);
+	background-image: -ms-linear-gradient(top, #b18ae0, #a47dd3);
+	background-image: -moz-linear-gradient(top, #b18ae0, #a47dd3);
+	background-image: -webkit-linear-gradient(top, #b18ae0, #a47dd3);
+}
+
+.btn_color:active{
+	background: #9770c6;
+	
+	background-image: -o-linear-gradient(bottom, #a47dd3, #9770c6);
+	background-image: -ms-linear-gradient(bottom, #a47dd3, #9770c6);
+	background-image: -moz-linear-gradient(bottom, #a47dd3, #9770c6);
+	background-image: -webkit-linear-gradient(bottom, #a47dd3, #9770c6);
+}
+
+.vertical_tabs ul li.active:after{ background: url(../../img/buttontip_purple.png); }

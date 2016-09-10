@@ -1,0 +1,57 @@
+/* ---------------------------------------- */
+/*                 THE GRID                 */
+/* ---------------------------------------- */
+
+.container {
+	width: 1125px;
+	margin: 0 auto;
+}
+
+.container:after, .row:after {
+	content: "";
+	
+	display: table;
+	clear: both;
+}
+
+.row{ margin-left: -15px; } /* --- CHANGE THIS TO .COL BORDER SIZE --- */
+
+.col{
+	border-left: 15px solid transparent; /* --- BORDER SIZE = THE FIXED GUTTER WIDTH --- */
+	margin: 0 0 35px;
+	float: left;
+	display: block;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+/* --- COLUMNS --- */
+
+.one_twelfth{ width: 8.333%; }
+.one_sixth{ width: 16.6669%; }
+.one_fifth{ width: 20%; }
+.one_quarter{ width: 25%; }
+.one_third{ width: 33.3334%; }
+.five_twelths{ width: 41.666%; }
+.one_half{ width: 50%; }
+.seven_twelfths{ width: 58.333%; }
+.two_thirds{ width: 66.666%; }
+.three_quarters{ width: 75%; }
+.five_sixths{ width: 83.333%; }
+.evelen_twelfths{ width: 91.666%; }
+.full_width{ width: 100%; }
+
+.offset1{ margin-left: 8.333%; }
+.offset2{ margin-left: 16.6669%; }
+.offset3{ margin-left: 25%; }
+.offset4{ margin-left: 33.334%; }
+.offset5{ margin-left: 41.666%; }
+.offset6{ margin-left: 50%; }
+.offset7{ margin-left: 58.333%; }
+.offset8{ margin-left: 66.666%; }
+.offset9{ margin-left: 75%; }
+.offset10{ margin-left: 83.333%; }
+.offset11{ margin-left: 91.666%; }
+

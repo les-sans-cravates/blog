@@ -1,0 +1,73 @@
+/* --- TEXT COLORS --- */
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{	color: #22d07c; }
+.text_color{ color: #22d07c; }
+.text_color li:before{ color: #22d07c; }
+ul.list.text_orange li:before{ color: #22d07c; }
+blockquote{ color: #22d07c; }
+.list_2 ul li i{ color: #22d07c; }
+ul.list.text_lightestGrey li:hover:before{ color: #22d07c; }
+p a{ color: #22d07c; }
+.avatar_title h5 span a{ color: #22d07c; }
+#header nav ul li.dropdown ul li a:hover{ color: #22d07c; }
+#page_header ul li a{ color: #22d07c; }
+.feature_icon{ color: #22d07c; }
+.features_pushed:before{ color: #22d07c; }
+.pagination_menu i:hover{ color: #22d07c; }
+.meta li a:hover{ color: #22d07c; }
+.categories li h6 a{ color: #22d07c; }
+.mini_post header h6:hover, .mini_post li:hover{ color: #22d07c; }
+#main_footer .col ul li a:hover{ color: #22d07c; }
+.pricing_column h2{	color: #22d07c; }
+.tabs > ul li a.inactive:hover{	color: #22d07c; }
+.accordion h2:hover, .accordion h3:hover, .accordion h4:hover, .accordion h5:hover, .accordion h6:hover{ color: #22d07c; }
+
+/* --- BACKGROUND COLORS --- */
+
+::selection{ background: #22d07c; }
+::-moz-selection{ background: #22d07c; }
+.highlight{	background: #22d07c; }
+.dropcap_alt{ background: #22d07c; }
+blockquote.alt2{ background: #22d07c; }
+.img_overlay{	background: #22d07c; }
+.meta-button:hover{	background: #22d07c; }
+#totop:hover{ background: #22d07c; }
+.coloured_wrapper.defaultcolor_wrap:before{ background: #22d07c; }
+.pricing_column.active{	background: #22d07c; }
+.viewer{ background: rgba(34,208,124,0.9); }
+
+/* --- OTHER --- */
+
+blockquote{ border-color: #22d07c; }
+
+.feature_icon{ color: #22d07c; }
+
+.features:hover .feature_icon, .notification, .meter span, .vertical_tabs ul li.active, .btn_color{
+	background: #22d07c;
+	border: 1px solid #1ba964;
+	
+	background-image: -o-linear-gradient(top, #2fdd89, #22d07c);
+	background-image: -ms-linear-gradient(top, #2fdd89, #22d07c);
+	background-image: -moz-linear-gradient(top, #2fdd89, #22d07c);
+	background-image: -webkit-linear-gradient(top, #2fdd89, #22d07c);
+}
+
+.btn_color:hover{
+	background: #2fdd89;
+	
+	background-image: -o-linear-gradient(top, #3cea96, #2fdd89);
+	background-image: -ms-linear-gradient(top, #3cea96, #2fdd89);
+	background-image: -moz-linear-gradient(top, #3cea96, #2fdd89);
+	background-image: -webkit-linear-gradient(top, #3cea96, #2fdd89);
+}
+
+.btn_color:active{
+	background: #22d07c;
+	
+	background-image: -o-linear-gradient(bottom, #2fdd89, #22d07c);
+	background-image: -ms-linear-gradient(bottom, #2fdd89, #22d07c);
+	background-image: -moz-linear-gradient(bottom, #2fdd89, #22d07c);
+	background-image: -webkit-linear-gradient(bottom, #2fdd89, #22d07c);
+}
+
+.vertical_tabs ul li.active:after{ background: url(../../img/buttontip_green.png); }

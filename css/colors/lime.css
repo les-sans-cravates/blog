@@ -1,0 +1,73 @@
+/* --- TEXT COLORS --- */
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{	color: #72d23e; }
+.text_color{ color: #72d23e; }
+.text_color li:before{ color: #72d23e; }
+ul.list.text_orange li:before{ color: #72d23e; }
+.list_2 ul li i{ color: #72d23e; }
+blockquote{ color: #72d23e; }
+ul.list.text_lightestGrey li:hover:before{ color: #72d23e; }
+p a{ color: #72d23e; }
+.avatar_title h5 span a{ color: #72d23e; }
+#header nav ul li.dropdown ul li a:hover{ color: #72d23e; }
+#page_header ul li a{ color: #72d23e; }
+.feature_icon{ color: #72d23e; }
+.features_pushed:before{ color: #72d23e; }
+.pagination_menu i:hover{ color: #72d23e; }
+.meta li a:hover{ color: #72d23e; }
+.categories li h6 a{ color: #72d23e; }
+.mini_post header h6:hover, .mini_post li:hover{ color: #72d23e; }
+#main_footer .col ul li a:hover{ color: #72d23e; }
+.pricing_column h2{	color: #72d23e; }
+.tabs > ul li a.inactive:hover{	color: #72d23e; }
+.accordion h2:hover, .accordion h3:hover, .accordion h4:hover, .accordion h5:hover, .accordion h6:hover{ color: #72d23e; }
+
+/* --- BACKGROUND COLORS --- */
+
+::selection{ background: #72d23e; }
+::-moz-selection{ background: #72d23e; }
+.highlight{	background: #72d23e; }
+.dropcap_alt{ background: #72d23e; }
+blockquote.alt2{ background: #72d23e; }
+.img_overlay{	background: #72d23e; }
+.meta-button:hover{	background: #72d23e; }
+#totop:hover{ background: #72d23e; }
+.coloured_wrapper.defaultcolor_wrap:before{ background: #72d23e; }
+.pricing_column.active{	background: #72d23e; }
+.viewer{ background: rgba(114,210,62,0.9); }
+
+/* --- OTHER --- */
+
+blockquote{ border-color: #72d23e; }
+
+.feature_icon{ color: #72d23e; }
+
+.features:hover .feature_icon, .notification, .meter span, .vertical_tabs ul li.active, .btn_color{
+	background: #72d23e;
+	border: 1px solid #4aac14;
+	
+	background-image: -o-linear-gradient(top, #7ddd49, #72d23e);
+	background-image: -ms-linear-gradient(top, #7ddd49, #72d23e);
+	background-image: -moz-linear-gradient(top, #7ddd49, #72d23e);
+	background-image: -webkit-linear-gradient(top, #7ddd49, #72d23e);
+}
+
+.btn_color:hover{
+	background: #7cdc48;
+	
+	background-image: -o-linear-gradient(top, #87e753, #7cdc48);
+	background-image: -ms-linear-gradient(top, #87e753, #7cdc48);
+	background-image: -moz-linear-gradient(top, #87e753, #7cdc48);
+	background-image: -webkit-linear-gradient(top, #87e753, #7cdc48);
+}
+
+.btn_color:active{
+	background: #72d23e;
+	
+	background-image: -o-linear-gradient(bottom, #7ddd49, #72d23e);
+	background-image: -ms-linear-gradient(bottom, #7ddd49, #72d23e);
+	background-image: -moz-linear-gradient(bottom, #7ddd49, #72d23e);
+	background-image: -webkit-linear-gradient(bottom, #7ddd49, #72d23e);
+}
+
+.vertical_tabs ul li.active:after{ background: url(../../img/buttontip_lime.png); }

@@ -1,0 +1,73 @@
+/* --- TEXT COLORS --- */
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{	color: #46ace7; }
+.text_color{ color: #46ace7; }
+.text_color li:before{ color: #46ace7; }
+ul.list.text_orange li:before{ color: #46ace7; }
+blockquote{ color: #46ace7; }
+.list_2 ul li i{ color: #46ace7; }
+ul.list.text_lightestGrey li:hover:before{ color: #46ace7; }
+p a{ color: #46ace7; }
+.avatar_title h5 span a{ color: #46ace7; }
+#header nav ul li.dropdown ul li a:hover{ color: #46ace7; }
+#page_header ul li a{ color: #46ace7; }
+.feature_icon{ color: #46ace7; }
+.features_pushed:before{ color: #46ace7; }
+.pagination_menu i:hover{ color: #46ace7; }
+.meta li a:hover{ color: #46ace7; }
+.categories li h6 a{ color: #46ace7; }
+.mini_post header h6:hover, .mini_post li:hover{ color: #46ace7; }
+#main_footer .col ul li a:hover{ color: #46ace7; }
+.pricing_column h2{	color: #46ace7; }
+.tabs > ul li a.inactive:hover{	color: #46ace7; }
+.accordion h2:hover, .accordion h3:hover, .accordion h4:hover, .accordion h5:hover, .accordion h6:hover{ color: #46ace7; }
+
+/* --- BACKGROUND COLORS --- */
+
+::selection{ background: #46ace7; }
+::-moz-selection{ background: #46ace7; }
+.highlight{	background: #46ace7; }
+.dropcap_alt{ background: #46ace7; }
+blockquote.alt2{ background: #46ace7; }
+.img_overlay{	background: #46ace7; }
+.meta-button:hover{	background: #46ace7; }
+#totop:hover{ background: #46ace7; }
+.coloured_wrapper.defaultcolor_wrap:before{ background: #46ace7; }
+.pricing_column.active{	background: #46ace7; }
+.viewer{ background: rgba(70,172,231,0.95); }
+
+/* --- OTHER --- */
+
+blockquote{ border-color: #46ace7; }
+
+.feature_icon{ color: #46ace7; }
+
+.features:hover .feature_icon, .notification, .meter span, .vertical_tabs ul li.active, .btn_color{
+	background: #46ace7;
+	border: 1px solid #2787be;
+	
+	background-image: -o-linear-gradient(top, #53b9f4, #46ace7);
+	background-image: -ms-linear-gradient(top, #53b9f4, #46ace7);
+	background-image: -moz-linear-gradient(top, #53b9f4, #46ace7);
+	background-image: -webkit-linear-gradient(top, #53b9f4, #46ace7);
+}
+
+.btn_color{
+	background: #46ace7;
+	
+	background-image: -o-linear-gradient(top, #53b9f4, #46ace7);
+	background-image: -ms-linear-gradient(top, #53b9f4, #46ace7);
+	background-image: -moz-linear-gradient(top, #53b9f4, #46ace7);
+	background-image: -webkit-linear-gradient(top, #53b9f4, #46ace7);
+}
+
+.btn_color:hover{
+	background: #53b9f4;
+	
+	background-image: -o-linear-gradient(top, #60c6ff, #53b9f4);
+	background-image: -ms-linear-gradient(top, #60c6ff, #53b9f4);
+	background-image: -moz-linear-gradient(top, #60c6ff, #53b9f4);
+	background-image: -webkit-linear-gradient(top, #60c6ff, #53b9f4);
+}
+
+.vertical_tabs ul li.active:after{ background: url(../../img/buttontip_blue.png); }

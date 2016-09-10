@@ -1,0 +1,87 @@
+/* --- TEXT COLORS --- */
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{	color: #bb9113; }
+.text_color{ color: #bb9113; }
+.text_color li:before{ color: #bb9113; }
+ul.list.text_orange li:before{ color: #bb9113; }
+blockquote{ color: #bb9113; }
+.list_2 ul li i{ color: #bb9113; }
+ul.list.text_lightestGrey li:hover:before{ color: #bb9113; }
+p a{ color: #bb9113; }
+.avatar_title h5 span a{ color: #bb9113; }
+#header nav ul li.dropdown ul li a:hover{ color: #bb9113; }
+#page_header ul li a{ color: #f7d15e; }
+.feature_icon{ color: #bb9113; }
+.features_pushed:before{ color: #f7d15e; }
+.pagination_menu i:hover{ color: #f7d15e; }
+.meta li a:hover{ color: #bb9113; }
+.categories li h6 a{ color: #bb9113; }
+.mini_post header h6:hover, .mini_post li:hover{ color: #bb9113; }
+#main_footer .col ul li a:hover{ color: #bb9113; }
+.pricing_column h2{	color: #bb9113; }
+.tabs > ul li a.inactive:hover{	color: #bb9113; }
+.accordion h2:hover, .accordion h3:hover, .accordion h4:hover, .accordion h5:hover, .accordion h6:hover{ color: #bb9113; }
+
+/* --- BACKGROUND COLORS --- */
+
+::selection{ background: #bb9113; }
+::-moz-selection{ background: #bb9113; }
+.highlight{	background: #bb9113; }
+.dropcap_alt{ background: #bb9113; }
+blockquote.alt2{ background: #bb9113; }
+.img_overlay{	background: #f7d15e; }
+.meta-button:hover{	background: #f7d15e; }
+#totop:hover{ background: #bb9113; }
+.coloured_wrapper.defaultcolor_wrap:before{ background: #f7d15e; }
+.pricing_column.active{	background: #bb9113; }
+.viewer{ background: rgba(187,145,19,0.9); }
+
+
+/* --- OTHER --- */
+
+blockquote{ border-color: #bb9113; }
+
+.feature_icon{ color: #bb9113; }
+
+.features:hover .feature_icon, .notification, .meter span, .vertical_tabs ul li.active, .btn_color{
+	text-shadow: 0 1px 1px rgba(255,255,255,0.2);
+	color: #bb9113;
+	
+	background: #f7d15e;
+	border: 1px solid #d4ae39;
+	
+	
+	background-image: -o-linear-gradient(top, #ffde6b, #f7d15e);
+	background-image: -ms-linear-gradient(top, #ffde6b, #f7d15e);
+	background-image: -moz-linear-gradient(top, #ffde6b, #f7d15e);
+	background-image: -webkit-linear-gradient(top, #ffde6b, #f7d15e);
+	
+}
+
+.btn_color:hover{
+	text-shadow: 0 1px 1px rgba(255,255,255,0.2);
+	color: #bb9113;
+	
+	background: #ffde6b;
+	
+	background-image: -o-linear-gradient(top, #ffeb78, #ffde6b);
+	background-image: -ms-linear-gradient(top, #ffeb78, #ffde6b);
+	background-image: -moz-linear-gradient(top, #ffeb78, #ffde6b);
+	background-image: -webkit-linear-gradient(top, #ffeb78, #ffde6b);
+	
+}
+
+.btn_color:active{
+	text-shadow: 0 1px 1px rgba(255,255,255,0.2);
+	color: #bb9113;
+	
+	
+	background: #ffde6b;
+	
+	background-image: -o-linear-gradient(bottom, #ffeb78, #ffde6b);
+	background-image: -ms-linear-gradient(bottom, #ffeb78, #ffde6b);
+	background-image: -moz-linear-gradient(bottom, #ffeb78, #ffde6b);
+	background-image: -webkit-linear-gradient(bottom, #ffeb78, #ffde6b);
+}
+
+.vertical_tabs ul li.active:after{ background: url(../../img/buttontip_yellow.png); }

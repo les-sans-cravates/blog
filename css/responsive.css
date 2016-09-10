@@ -1,0 +1,153 @@
+/* ---------------------------------------- */
+/*              MEADIA QUERIES              */
+/* ---------------------------------------- */
+
+@media only screen and (max-width: 1165px ) {
+	.container{
+		width: auto;
+		padding: 0 20px;
+	}
+	
+	#header .container{	padding: 0;	}
+	
+	#header nav ul li a{
+		transition: font-size 0.5s ease, padding 0.5s ease;
+		-o-transition: font-size 0.5s ease, padding 0.5s ease;
+		-ms-transition: font-size 0.5s ease, padding 0.5s ease;
+		-moz-transition: font-size 0.5s ease, padding 0.5s ease;
+		-webkit-transition: font-size 0.5s ease, padding 0.5s ease;
+	}
+	    
+    #header nav ul li.dropdown ul li a { 
+    	transition: font-size 0.5s ease, padding 0.5s ease;
+		-o-transition: font-size 0.5s ease, padding 0.5s ease;
+		-ms-transition: font-size 0.5s ease, padding 0.5s ease;
+		-moz-transition: font-size 0.5s ease, padding 0.5s ease;
+		-webkit-transition: font-size 0.5s ease, padding 0.5s ease;
+    }
+	
+	.cover_image .avatar{ margin-left: 20px; }
+	
+	#nav_logo{ margin-left: 20px; }
+	
+	.socialicons{ margin-right: 20px; }
+	
+}
+
+@media only screen and (max-width: 1075px) {
+	
+	#header nav ul li a{
+		font-size: 10px;
+		padding: 0 25px 0;	
+		
+		transition: font-size 0.5s ease, padding 0.5s ease;
+		-o-transition: font-size 0.5s ease, padding 0.5s ease;
+		-ms-transition: font-size 0.5s ease, padding 0.5s ease;
+		-moz-transition: font-size 0.5s ease, padding 0.5s ease;
+		-webkit-transition: font-size 0.5s ease, padding 0.5s ease;
+	}
+	    
+    #header nav ul li.dropdown ul li a { 
+    	padding: 0 40px 0 25px;
+    	
+    	transition: font-size 0.5s ease, padding 0.5s ease;
+		-o-transition: font-size 0.5s ease, padding 0.5s ease;
+		-ms-transition: font-size 0.5s ease, padding 0.5s ease;
+		-moz-transition: font-size 0.5s ease, padding 0.5s ease;
+		-webkit-transition: font-size 0.5s ease, padding 0.5s ease;
+    }
+	   
+}
+
+@media only screen and (max-width: 950px) {
+
+	.socialicons{ display: none; }		    
+	
+	#nav_searchbox input{
+		width: 20px;
+		margin: 0 -20px 0 0;
+		float: right;
+	}
+	
+	.main_content{ width: 100%; }
+	.sidebar{ display: none; }
+	.sidebar_100{ width: 100%; }
+	   
+}
+
+@media only screen and (max-width: 750px) {	
+	
+	#nav_search{ display: none;	}
+	
+	.col.one_quarter{ width: 50%; }	    
+}
+
+@media only screen and (max-width: 660px) {
+	
+	#slider .col{ width: 100%; }
+	main .col{ width: 100%; }
+
+	.col .col.one_half{ width: 50%; }
+	.col .one_quarter{ width: 50%; }
+		 
+	.offset1, .offset2, .offset3, .offset4, .offset5, .offset6, .offset7, .offset8, .offset9{
+		margin-left: 0;
+	}
+	
+	#header nav ul{	display: none; }
+	
+	#mobile_nav{ display: block; }
+	
+	#nav_search{ display: block; }
+	
+	#page_header h3, #page_header nav, #page_header ul{ 
+		width: 100%;
+		margin-top: 0;
+		float: left;
+	}	
+	
+	.cover_img_container, .cover_image{ height: 290px; }
+	
+	.testimonial_slider li.col.one_sixth{ width: 33.3334%; }
+	
+	.testimonial_slider li h5, .testimonial_slider li h6{ display: none; }
+	
+	footer .col ul h4, footer .col ul li{ text-align: center; }
+	
+}
+
+@media only screen and (max-width: 380px) {
+	
+	#nav_search{ display: none;	}
+	
+	.col.one_quarter{ width: 100%; }
+	
+	.cover_img_container, .cover_image{ height: 200px; }
+	
+	.post_header h1{ font-size: 24px; }
+	
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+
+	#nav_logo img{ opacity: 0; }
+	
+	#nav_logo{ background: url(../img/logox2.png) 0 0 / 156px 32px;	}
+	
+	#nav_searchbox input{ background: #fff url(../img/searchx2.png) no-repeat 5px center / 15px; }
+		
+	#nav_searchbox input:focus{	background: #fcfcfc url(../img/searchx2.png) no-repeat 193px center / 15px;	}
+	
+	#mobile_nav{ background: url(../img/menux2.png) 0 0 / 30px auto; }
+	
+	#mobile_nav:hover{ background: url(../img/menux2.png) 0 29px / 30px auto; }
+	
+	.point_top{ background: url(../img/arrow_overlay_topx2.png) 0 0 / 11px 45px; }
+	.point_btm{ background: url(../img/arrow_overlay_btmx2.png) 0 0 / 11px 30px; }
+	.point_topr{ background: url(../img/arrow_overlay_toprx2.png) 0 0 / 4px 4px; }
+	.point_btmr{ background: url(../img/arrow_overlay_btmrx2.png) 0 0 / 4px 4px; }
+	
+	#footer_logo img{ display: none; }
+	
+	#footer_logo{ background: url(../img/logo_altx2.png) 0px 0px / 26px 32px; }
+}
