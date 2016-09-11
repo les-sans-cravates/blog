@@ -132,7 +132,7 @@
 
 	#nav_logo img{ opacity: 0; }
 	
-	#nav_logo{ background: url(../img/logox2.png) 0 0 / 156px 32px;	}
+	// #nav_logo{ background: url(../img/logox2.png) 0 0 / 156px 32px;	}
 	
 	#nav_searchbox input{ background: #fff url(../img/searchx2.png) no-repeat 5px center / 15px; }
 		

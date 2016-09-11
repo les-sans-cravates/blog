@@ -70,6 +70,10 @@ h2,
 	margin: 0 0 8px;
 }
 
+@media only screen and (max-width: 767px) {
+	.h2_like { font-size: 24px; }
+}
+
 .h2_like { font-weight: 300; }
 
 h3{	
