@@ -1,3 +1,4 @@
+ex. name : 2016-08-29-test.md
 ---
 layout: post
 date:   2016-08-26
