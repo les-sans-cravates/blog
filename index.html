@@ -3,13 +3,11 @@ layout: default
 title: Home
 ---
 
-<body>
+<body class="site">
   {% include header.html %}
 
-  <div class="nav_clear"></div><!-- CLEAR NAV -->
-
   <!-- MAIN CONTENT -->
-  <main>
+  <main class="site-content">
     <div class="container"><!-- CONTAINER -->
       <div class="row" id="container">
         {% for post in site.posts %}

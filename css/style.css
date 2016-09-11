@@ -16,7 +16,7 @@ body{
 
 main{
 	padding: 35px 0;
-	overflow: hidden;
+	// overflow: hidden;
 	display: block;
 	
 	clear: both;
@@ -732,7 +732,7 @@ img.align_right{
 #header{
 	width: 100%;
 	background: #fff;
-	position: fixed;
+	// position: fixed;
 	left: 0;
 	top: 0;
 	z-index: 99999;
@@ -2105,6 +2105,22 @@ footer .fa-dribbble{ margin: 0 0 0 21px; }
 }
 
 /* ---------------------------------------- */
+/*              STICKY FOOTER               */
+/* ---------------------------------------- */
+html { height: 100%; }
+
+.site {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+}
+
+.site-content { flex: 1; }
+
+#main_footer,
+#sub_footer { flex: none;}
+
+/* ---------------------------------------- */
 /*                  FADEIN                  */
 /* ---------------------------------------- */
 
@@ -2140,5 +2156,3 @@ footer .fa-dribbble{ margin: 0 0 0 21px; }
     from { opacity: 0; }
     to   { opacity: 1; }
 }?
-
-
