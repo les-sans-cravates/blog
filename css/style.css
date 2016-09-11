@@ -2110,15 +2110,28 @@ footer .fa-dribbble{ margin: 0 0 0 21px; }
 html { height: 100%; }
 
 .site {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	height: 100%;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 
-.site-content { flex: 1; }
+.site-content {
+	-webkit-box-flex: 1;
+					-ms-flex: 1;
+							flex: 1;
+}
 
 #main_footer,
-#sub_footer { flex: none;}
+#sub_footer {
+	-webkit-box-flex: 0;
+					-ms-flex: none;
+							flex: none;
+}
 
 /* ---------------------------------------- */
 /*                  FADEIN                  */
