@@ -897,6 +897,7 @@ img.align_right{
 	margin: 21px 30px;
 	float: right;
 	display: none; /* --- IMPORTANT --- */
+	position: relative;
 }
 
 #mobile_nav:hover{ 	background: url(../img/menu.png) center 28px; }
@@ -910,6 +911,19 @@ img.align_right{
 	opacity: 0;
 	
 	cursor: pointer;
+}
+
+#mobile_nav > div {
+	background-color: #FFF;
+	box-shadow: 0 1px 4px rgba(0,0,0,0.02), 0 1px 0 rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 1px 4px rgba(0,0,0,0.02), 0 1px 0 rgba(0,0,0,0.05);
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.02), 0 1px 0 rgba(0,0,0,0.05);
+	display: none;
+	left: -122px;
+	padding: 20px;
+	position: absolute;
+	top: 52px;
+	width: 143px;
 }
 
 /* --- NAV SEARCH --- */

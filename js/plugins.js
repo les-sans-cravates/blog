@@ -4,25 +4,19 @@
 /* ---------------------------------------- */
 
 $(function() {
-	$("<select />").appendTo("#header #mobile_nav");
-	
-	$("<option />", {
-		"selected": "selected",
-		"value"   : "",
-		"text"    : "Go to..."
-	}).appendTo("#header nav select");
-	
+	$("<div />").appendTo("#header #mobile_nav");
+
 	$("#header nav a").each(function() {
 		var el = $(this);
-		$("<option />", {
-		   "value"   : el.attr("href"),
+		$("<a />", {
+		   "href"   : el.attr("href"),
 		   "text"    : el.text()
-		}).appendTo("#header nav select");
+		}).appendTo("#mobile_nav div");
 	});
-	
-	$("#header nav select").change(function() {
-		window.location = $(this).find("option:selected").val();
-	});
+
+  $("#header #mobile_nav").on("click", function() {
+    $("#header #mobile_nav > div").toggle();
+  })
 });
 
 
