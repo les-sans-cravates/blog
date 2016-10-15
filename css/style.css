@@ -736,6 +736,7 @@ img.align_right{
 	left: 0;
 	top: 0;
 	z-index: 99999;
+	margin-bottom: 1px;
 
 	box-shadow: 0 1px 4px rgba(0,0,0,0.02), 0 1px 0 rgba(0,0,0,0.05);
 	-moz-box-shadow: 0 1px 4px rgba(0,0,0,0.02), 0 1px 0 rgba(0,0,0,0.05);
