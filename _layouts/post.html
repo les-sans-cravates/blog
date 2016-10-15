@@ -29,12 +29,41 @@
         </div>
         <!-- MAIN BLOG CONTENT END -->
       </div>
+      <div class="row"><!-- COMMENTS -->
+        <div id="disqus_thread" class="col full_width txt_center">
+          <button class="btn medium btn_color" data-id="displayComment">Afficher les commentaires</button>
+        </div>
+        <script>
+          /**
+          *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+          *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+          /*
+          var disqus_config = function () {
+          this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          };
+          */
+          var initDisqus = function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = '//les-sans-cravates-io.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+          };
+
+          var buttonDisplayComment = document.querySelectorAll('[data-id="displayComment"]')[0];
+          buttonDisplayComment.addEventListener('click', function(e) {
+            initDisqus();
+          }, false);
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </div>
+      <!-- COMMENTS END-->
     </div>
     <!-- CONTAINER END -->
   </main>
   <!-- MAIN CONTENT END -->
 
-  {% include footer.html %}
+{% include footer.html %}
 
 </body>
 </html>

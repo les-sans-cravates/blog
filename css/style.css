@@ -2015,6 +2015,14 @@ footer{
 
 #main_footer .col ul li a:hover{ color: #e6624d; }
 
+.txt_center {
+	text-align: center;
+}
+
+#disqus_thread iframe #layout {
+	overflow: auto !important; 
+}
+
 /* ---------------------------------------- */
 /*               #SUB_FOOTER                */
 /* ---------------------------------------- */
