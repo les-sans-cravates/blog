@@ -10,14 +10,11 @@ title: Home
   <main class="site-content">
     <div class="container"><!-- CONTAINER -->
       <div class="row" id="container">
-        <div class="col full_width">
-          <p class="h2_like text_center">Retrouvez bientôt ici notre premier article :)</p>
-        </div>
         {% for post in site.posts %}
           <div class="col one_quarter item">
             <article class="boxed_post">
               <a href="{{ post.url }}" class="boxed_img">
-                <img src="img/blog/445x282_{{ post.img }}.jpg" alt="" />
+                <img src="img/articles/{{ post.img }}_445x282.jpg" alt="" />
                 <div class="img_overlay"><i class="fa fa-link"></i></div>
               </a>
               <div class="boxed_post_wrap">
@@ -28,8 +25,8 @@ title: Home
                 </header>
                 <ul class="meta">
                   <li class="date"><i class="fa fa-clock-o"></i><span>{{ post.date | date_to_string }}</span></li>
-                  <li><a href="#"><i class="fa fa-comments"></i><span>22</span></a></li>
-                </ul>
+<!--                   <li><a href="#"><i class="fa fa-comments"></i><span>22</span></a></li>
+ -->                </ul>
               </div>
             </article>
           </div>

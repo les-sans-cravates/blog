@@ -9,14 +9,14 @@
       <div class="row">
         <!-- MAIN BLOG CONTENT -->
         <header class="cover_img_container"><!-- COVER IMAGE -->
-          <div class="cover_image" style="background-image: url(/img/blog/1280x225_{{ page.img }}.jpg);"></div>
+          <div class="cover_image" style="background-image: url(/img/articles/{{ page.img }}_1280x225.jpg);"></div>
         </header><!-- COVER IMAGE END -->
 
         <div class="col full_width">
           <article class="post_container fullpost">
             <img src="/img/avatar/{{ page.avatar }}.jpg" alt="" class="avatar"/>
             <header class="post_header">
-              <h1>A web designer's guide: get out the office and get some fresh inspiration</h1>
+              <h1>{{ page.title }}</h1>
               <a class="meta-button rounded" href="#"><i class="fa fa-clock-o"></i><span>{{ page.date | date_to_string }}</span></a>
             </header>
             <div class="post_content">
@@ -27,7 +27,7 @@
         </div>
         <!-- MAIN BLOG CONTENT END -->
       </div>
-      <div class="row"><!-- COMMENTS -->
+     <!--  <div class="row"><!-- COMMENTS --
         <div id="disqus_thread" class="col full_width txt_center">
           <button class="btn medium btn_color" data-id="displayComment">Afficher les commentaires</button>
         </div>
@@ -63,5 +63,6 @@
 
 {% include footer.html %}
 
+  <script src="/js/prism.js"></script>
 </body>
 </html>

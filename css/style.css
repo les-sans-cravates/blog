@@ -1513,7 +1513,7 @@ img.align_right{
 .fullpost .post_header{	margin-bottom: 15px; }
 
 .fullpost p{
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 1.6;
 }
 
@@ -1859,6 +1859,7 @@ meta-button span{
 .boxed_post p{
 	max-height: 200px;
 	overflow: hidden;
+	text-align: left;
 }
 
 .boxed_post .avatar{
@@ -2033,7 +2034,7 @@ footer{
 }
 
 #disqus_thread iframe #layout {
-	overflow: auto !important; 
+	overflow: auto !important;
 }
 
 /* ---------------------------------------- */
@@ -2137,6 +2138,16 @@ footer .fa-dribbble{ margin: 0 0 0 21px; }
 	box-shadow: 0 1px 5px 0 rgba(0,0,0,0.3), 0 0 0 1px rgba(0,0,0,0.05);
 	-moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.3), 0 0 0 1px rgba(0,0,0,0.05);
 	-webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.3), 0 0 0 1px rgba(0,0,0,0.05);
+}
+
+code.text {
+	background: #f7f7f7;
+  border: 1px solid #f4f4f4;
+  margin: 0 2px 0 2px;
+  padding: 0 4px 0 4px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-style: italic;
 }
 
 /* ---------------------------------------- */
