@@ -120,6 +120,13 @@ p a{
 
 p a:hover{ text-decoration: underline; }
 
+ul {
+	color: #777;
+	list-style: disc;
+	margin-bottom: 15px;
+	padding-left: 25px;
+}
+
 ::selection{
 	color: #fff;
 
