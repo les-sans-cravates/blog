@@ -120,7 +120,7 @@ p a{
 
 p a:hover{ text-decoration: underline; }
 
-ul {
+.post_content ul {
 	color: #777;
 	list-style: disc;
 	margin-bottom: 15px;
@@ -2147,7 +2147,7 @@ footer .fa-dribbble{ margin: 0 0 0 21px; }
 	-webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.3), 0 0 0 1px rgba(0,0,0,0.05);
 }
 
-code.text {
+.post_content p code {
 	background: #f7f7f7;
   border: 1px solid #f4f4f4;
   margin: 0 2px 0 2px;

@@ -17,14 +17,15 @@ Un exemple en image :
 
 Nous avons ici un code relativement simple, mais d'un coup d'oeil nous voyons dans quel bloc nous sommes, imaginez ça dans du code plus complexe (comme dans la vraie vie ^^).
 
-Pour l'activer, copier le code suivant dans vos préférences utilisateurs (<code class="text">Preferences → Settings - User</code>) :
+Pour l'activer, copier le code suivant dans vos préférences utilisateurs (`Preferences → Settings - User`) :
 
-<pre><code class="language-json">"indent_guide_options":
+```json
+"indent_guide_options":
 [
   "draw_normal",
   "draw_active"
 ],
-</code></pre>
+```
 
 Testez-le au moins sur une demi-journée pour voir si ça vous plaît.
 
