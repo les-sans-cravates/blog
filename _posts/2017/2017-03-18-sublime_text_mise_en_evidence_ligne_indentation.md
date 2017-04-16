@@ -3,6 +3,7 @@ layout: post
 date:   2017-03-18
 title:  Sublime Text - Mise en évidence de la ligne d'indentation
 avatar : lionel_jamal
+author: Lionel JAMAL
 img : sublime_text_mise_en_evidence_ligne_indentation
 ---
 

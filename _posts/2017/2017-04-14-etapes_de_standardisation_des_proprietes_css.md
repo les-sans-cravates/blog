@@ -3,6 +3,7 @@ layout: post
 date:   2017-04-14
 title:  Étapes de standardisation des propriétés CSS
 avatar : lionel_jamal
+author: Lionel JAMAL
 img : etapes_de_standardisation_des_proprietes_css
 ---
 
