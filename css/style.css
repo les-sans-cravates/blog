@@ -2183,6 +2183,8 @@ footer .fa-dribbble{ margin: 0 0 0 21px; }
   font-style: italic;
 }
 
+.inbl { display: inline-block; }
+
 /* ---------------------------------------- */
 /*              STICKY FOOTER               */
 /* ---------------------------------------- */
