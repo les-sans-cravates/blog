@@ -1864,10 +1864,16 @@ meta-button span{
 }
 
 .boxed_post p{
-	max-height: 200px;
+	height: 160px;
 	overflow: hidden;
 	text-align: left;
 }
+
+.boxed_post h5 {
+	height: 50px;
+}
+
+.boxed_post h5 a { vertical-align: middle; }
 
 .boxed_post .avatar{
 	margin-left: -35px;

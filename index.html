@@ -20,8 +20,8 @@ title: Home
               <div class="boxed_post_wrap">
                 <header>
                   <img src="img/avatar/{{ post.avatar }}.jpg" alt="" class="avatar"/>
-                  <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
-                  {{ post.excerpt }}
+                  <h5><a href="{{ post.url }}">{{ post.title | truncatewords: 11}}</a></h5>
+                  {{ post.excerpt | truncatewords: 28}}
                 </header>
                 <ul class="meta">
                   <li class="date"><i class="fa fa-clock-o"></i><span>{{ post.date | date_to_string }}</span></li>
