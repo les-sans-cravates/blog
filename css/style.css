@@ -1613,7 +1613,8 @@ img.align_right{
 
 .meta li.date i{ vertical-align: middle; }
 
-.meta-button{
+.meta-button,
+.wrapper_date_post {
 	background: #f2f2f2;
 	margin: 0 5px 10px 0;
 	padding: 8px 10px;
@@ -1635,6 +1636,15 @@ img.align_right{
 	color: #fff;
 
 	background: #e6624d;
+}
+
+p.wrapper_date_post {
+	line-height: 0;
+}
+
+.wrapper_date_post:hover {
+	color: #bbb;
+	background-color: #f2f2f2;
 }
 
 meta-button span{
