@@ -504,7 +504,8 @@ img.align_right{
 
 .avatar_2_wrap + .avatar_title{	text-align: center; }
 
-.avatar_title h5 span a{
+.avatar_title h5 span a,
+.role {
 	font-size: 10px;
 	font-weight: 400;
 	color: #e6624d;
@@ -512,8 +513,6 @@ img.align_right{
 	margin: 10px 0 0;
 	display: block;
 }
-
-.avatar_title h5 span:hover, .avatar_title h5 span a:hover{ text-decoration: underline; }
 
 .img_overlay{
 	width: 100%;
