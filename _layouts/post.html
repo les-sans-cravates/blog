@@ -17,7 +17,13 @@
             <img src="/img/avatar/{{ page.avatar }}.jpg" alt="" class="avatar"/>
             <header class="post_header">
               <h1>{{ page.title }}</h1>
-              <a class="meta-button rounded" href="#"><i class="fa fa-clock-o"></i><span>{{ page.date | date_to_string }}</span></a>
+              <a class="meta-button rounded" href="#">
+                <i class="fa fa-clock-o"></i>
+                <span class="date_post">
+                  {% include date.html date=page.date %}
+                  {{ day }}{{ sup }} {{ month }} {{ year }}
+                </span>
+              </a>
             </header>
             <div class="post_content">
               {{ content }}

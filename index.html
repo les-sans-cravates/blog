@@ -24,7 +24,12 @@ title: Home
                   {{ post.excerpt | truncatewords: 28}}
                 </header>
                 <ul class="meta">
-                  <li class="date"><i class="fa fa-clock-o"></i><span>{{ post.date | date_to_string }}</span></li>
+                  <li class="date"><i class="fa fa-clock-o"></i>
+                    <span>
+                      {% include date.html date=post.date %}
+                      {{ day }}{{ sup }} {{ month }} {{ year }}
+                     </span>
+                  </li>
 <!--                   <li><a href="#"><i class="fa fa-comments"></i><span>22</span></a></li>
  -->                </ul>
               </div>
