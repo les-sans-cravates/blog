@@ -120,6 +120,12 @@ p a{
 
 p a:hover{ text-decoration: underline; }
 
+.sup_date {
+	font-size: 7px;
+	position: relative;
+	top: -1px;
+}
+
 .post_content ul {
 	color: #777;
 	list-style: disc;
@@ -1803,7 +1809,6 @@ meta-button span{
 
 .boxed_post{
 	margin-bottom: -20px;
-
 	border-radius: 4px;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -1864,7 +1869,6 @@ meta-button span{
 }
 
 .boxed_post p{
-	height: 160px;
 	overflow: hidden;
 	text-align: left;
 }
@@ -1895,7 +1899,6 @@ meta-button span{
 }
 
 .boxed_post .meta li{
-	width: 33.3%;
 	border-left: 1px solid #efefef;
 	padding: 14px 0;
 	float: left;
@@ -1907,6 +1910,23 @@ meta-button span{
 }
 
 .boxed_post ul li:first-child{ border-left: 0; }
+
+.boxed_post .date {
+	margin-left: 20px;
+}
+
+.boxed_post .date span,
+span.date_post {
+	margin-left: 0;
+	position: relative;
+	top: -1px;
+}
+
+.col.one_quarter.item {
+	width: 285px;
+}
+.boxed_post p { height: 160px; }
+
 
 
 /* --- IMAGE WIDGET --- */
