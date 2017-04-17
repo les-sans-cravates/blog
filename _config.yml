@@ -1,5 +1,5 @@
 name: Les sans cravates
-url: les-sans-cravates.io
+url: http://les-sans-cravates.io
 permalink: /:categories/:year/:title.html
 timezone: FR
 #exclude: [css]
