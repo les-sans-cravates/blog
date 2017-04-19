@@ -1934,12 +1934,25 @@ span.date_post {
 	top: -1px;
 }
 
-.col.one_quarter.item {
-	width: 285px;
-}
+.col.one_quarter.item {	width: 100%; }
 .boxed_post p { height: 160px; }
 
+@media screen and (min-width: 568px) {
+	.col.one_quarter.item {	width: 50%;}
+}
 
+@media screen and (min-width: 768px) {
+	.boxed_post p { height: 135px; }
+}
+
+@media screen and (min-width: 992px) {
+	.col.one_quarter.item {	width: 33.333%;}
+}
+
+@media screen and (min-width: 1200px) {
+	.col.one_quarter.item {	width: 285px;}
+	.boxed_post p { height: 160px; }
+}
 
 /* --- IMAGE WIDGET --- */
 
