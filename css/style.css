@@ -1867,7 +1867,10 @@ meta-button span{
 	-webkit-border-radius: 0 0 4px 4px;
 }
 
-.boxed_post:hover .boxed_post_wrap{	border-color: #e2e2e2; }
+.boxed_img {
+	border: 1px solid #ebebeb;
+	border-bottom: 0;
+}
 
 .boxed_post header{
 	text-align: center;
