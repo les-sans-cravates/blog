@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2017-03-19
-title: Le serveur le plus rapide de l'ouest !
+title: Le serveur le plus rapide de l'ouest !
 avatar : erwan_leblanc
 author: Erwan LEBLANC
 img : le_server_le_plus_rapide_de_l_ouest
