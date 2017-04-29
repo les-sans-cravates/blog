@@ -24,32 +24,11 @@
 
   <!-- JS -->
   <script src="/js/jquery-1.10.2.js"></script>
+  
+  <!-- some mobile function like goToTop -->
   <script src="/js/plugins.js"></script>
-  <script src="/js/sudoSlider.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      var sudoSlider = $("#slider").sudoSlider({
-         numeric: false,
-         responsive: true,
-         controlsFade: false,
-         auto: true,
-         speed: 1250
-      });
-
-          $(".prevBtn, .nextBtn, #slider").hover(
-              function () {
-                  // Mousein
-                  $(".prevBtn, .nextBtn").stop().fadeTo(200, 1);
-              },
-              function () {
-                  //Mouse out
-                  $(".prevBtn, .nextBtn").stop().fadeTo(200, 0);
-              }
-          );
-          $(".prevBtn, .nextBtn").stop().fadeTo(0, 0);
-    });
-  </script>
-  <script src="/js/view.min.js?auto"></script>
+  
+  <!-- what is masonry ? -->
   <script src="/js/masonry-docs.min.js"></script>
   <script>
     $(document).ready(function(){
@@ -65,8 +44,10 @@
       });
     });
   </script>
+  <!-- video wrapper, keep this ? -->
   <script src="/js/fitvids.js"></script>
-  <script src="/js/modernizr.js"></script>
+  
+  <!-- highlight things, dunno if use -->
   <script src="/js/prism.js"></script>
 
   <script>
@@ -74,11 +55,9 @@
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
     ga('create', 'UA-96056727-1', 'auto');
     ga('send', 'pageview');
-
-</script>
+  </script>
 
 </body>
 </html>

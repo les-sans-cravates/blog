@@ -84,7 +84,6 @@
 
 @media only screen and (max-width: 660px) {
 	
-	#slider .col{ width: 100%; }
 	main .col{ width: 100%; }
 
 	.col .col.one_half{ width: 50%; }
