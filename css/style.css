@@ -34,7 +34,6 @@ main{
 h1, h2, h3, h4, h5, h6{
 	font-weight: 700;
 	line-height: 1;
-	text-transform: uppercase;
 	color: #444;
 
 	transition: color 0.3s ease;
@@ -2092,7 +2091,8 @@ footer .fa-dribbble{ margin: 0 0 0 21px; }
 	-webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.3), 0 0 0 1px rgba(0,0,0,0.05);
 }
 
-.post_content p code {
+.post_content p code,
+.post_content li code {
 	background: #f7f7f7;
   border: 1px solid #f4f4f4;
   margin: 0 2px 0 2px;
@@ -2126,6 +2126,8 @@ html { height: 100%; }
 					-ms-flex: 1 0 auto;
 							flex: 1 0 auto;
 }
+
+.uppercase { text-transform: uppercase; }
 
 #header,
 #main_footer,
