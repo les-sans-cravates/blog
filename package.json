@@ -4,7 +4,6 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "reduceimg": "imagemin img/articles/* --out-dir=img/articles",
     "css": "csso css/opti.css > css/screen.css"
   },
   "repository": {
