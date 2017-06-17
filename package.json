@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css": "csso css/opti.css > css/screen.css"
+    "css": "csso css/screen_dev.css > css/screen.css"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "imagemin-cli": "^3.0.0"
+  "devDependencies": {
+    "csso-cli": "^1.0.0"
   }
 }
