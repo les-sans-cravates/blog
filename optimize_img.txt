@@ -1,0 +1,7 @@
+Pour optimiser les images des articles, installer imageOptin :
+
+https://imageoptim.com/mac
+
+Une fois installer, l'ouvrir, aller dans les préférences, onglet quality et activer 'Enable lossy minification'.
+
+Laisser les réglages par défault.
