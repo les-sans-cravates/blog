@@ -1,0 +1,19 @@
+{
+  "name": "les_sans_cravates",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reduceimg": "imagemin img/articles/* --out-dir=img/articles",
+    "css": "csso css/opti.css > css/screen.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://les-sans-cravates.io/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "imagemin-cli": "^3.0.0"
+  }
+}
