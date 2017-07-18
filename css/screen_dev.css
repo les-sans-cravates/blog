@@ -212,7 +212,7 @@ h6{
 }
 
 p{
-	font-size: 16px;
+	font-size: 18px;
 	color: #999;
 	line-height: 1.7;
 
@@ -258,7 +258,7 @@ p a:hover{ text-decoration: underline; }
 strong { font-weight: 600;}
 .bolder{ font-weight: 700;}
 .boldest{ font-weight: 800;}
-.italic{ font-style: italic; }
+.italic, em { font-style: italic; }
 
 .lCase{ text-transform: none; }
 
@@ -1401,7 +1401,6 @@ img.align_right{
 
 @media only screen and (min-width: 768px) {
 	.post_container{
-		border-left: 2px solid #f2f2f2;
 		margin-left: 36px;
 		padding: 0 0 35px 53px;
 	}
@@ -1528,7 +1527,7 @@ img.align_right{
 .fullpost .post_header{	margin-bottom: 15px; }
 
 .fullpost p{
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1.6;
 }
 
@@ -4806,7 +4805,7 @@ pre[class*="language-"] {
 /* Code blocks */
 pre[class*="language-"] {
 	padding: 1em;
-	margin: .5em 0;
+	margin: 1.5625rem 0;
 	overflow: auto;
 	border-radius: 0.3em;
 }
