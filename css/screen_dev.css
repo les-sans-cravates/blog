@@ -198,7 +198,7 @@ h4{
 }
 
 h5{
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 1.2;
 
 	margin: 0 0 14px;
@@ -1603,7 +1603,7 @@ img.align_right{
 }
 
 .meta li span, .meta-button span{
-	font-size: 9px;
+	font-size: 14px;
 
 	margin-left: 6px;
 }
@@ -1885,10 +1885,11 @@ meta-button span{
 .boxed_post p{
 	overflow: hidden;
 	text-align: left;
+	hyphens: auto;
 }
 
 .boxed_post h5 {
-	height: 50px;
+	height: 70px;
 }
 
 .boxed_post h5 a { vertical-align: middle; }
