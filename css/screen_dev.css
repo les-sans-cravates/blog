@@ -1888,6 +1888,10 @@ meta-button span{
 	hyphens: auto;
 }
 
+.fullpost ul {
+	font-size: 18px;
+}
+
 .boxed_post h5 {
 	height: 70px;
 }
