@@ -221,12 +221,14 @@ p{
 
 p:last-child{ margin: 0; }
 
-p a{
+p a,
+li a {
 	font-weight: 400;
 	color: #e6624d;
 }
 
-p a:hover{ text-decoration: underline; }
+p a:hover,
+li a:hover { text-decoration: underline; }
 
 .sup_date {
 	font-size: 7px;
