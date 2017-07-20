@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css": "csso css/screen_dev.css > css/screen.css"
+    "css": "csso css/screen_dev.css > css/screen.min.css"
   },
   "repository": {
     "type": "git",
