@@ -909,7 +909,7 @@ img.align_right{
 }
 
 #header nav ul li a{
-	font-size: 11px;
+	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #bbb;
@@ -3323,10 +3323,15 @@ html { height: 100%; }
 
 }
 
+@media only screen and (max-width: 665px) {
+	#header nav ul li a{
+		font-size: 10px;
+	}
+}
+
 @media only screen and (max-width: 1075px) {
 
 	#header nav ul li a{
-		font-size: 10px;
 		padding: 0 25px 0;
 
 		transition: font-size 0.5s ease, padding 0.5s ease;
