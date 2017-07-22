@@ -625,6 +625,8 @@ img.align_right{
 	display: block;
 }
 
+.role { font-size: 14px; }
+
 .img_overlay{
 	width: 100%;
 	height: 100%;
