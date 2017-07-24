@@ -243,18 +243,6 @@ li a:hover { text-decoration: underline; }
 	padding-left: 25px;
 }
 
-::selection{
-	color: #fff;
-
-	background: #e6624d;
-}
-
-::-moz-selection{
-	color: #fff;
-
-	background: #e6624d;
-}
-
 .light{ font-weight: 300; }
 .bold,
 strong { font-weight: 600;}
