@@ -1393,11 +1393,10 @@ img.align_right{
 
 @media only screen and (min-width: 768px) {
 	.post_container{
-		margin-left: 36px;
 		padding: 0 0 35px 53px;
 	}
 
-	article.post_container{ padding-left: 47px; }
+	article.post_container{ padding-left: 47px; padding-right: 47px; }
 }
 
 .post_container{
@@ -1432,12 +1431,6 @@ img.align_right{
 	position: absolute;
 	left: -5px;
 	top: 0;
-}
-
-@media only screen and (min-width: 768px) {
-	.post_container .avatar{
-		left: -36px;
-	}
 }
 
 .post_container_media{
