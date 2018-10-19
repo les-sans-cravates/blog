@@ -3,5 +3,5 @@ url: http://les-sans-cravates.io
 permalink: /:categories/:year/:title.html
 timezone: FR
 #exclude: [css]
-gems:
+plugins:
   - jekyll-feed
